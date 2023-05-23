@@ -98,17 +98,20 @@ form ::placeholder{
 }
 
 h2{
-    margin-left: 75vh;
+    margin-left: 79vh;
     margin-top: 30px;
     font-family: 'Bungee Shade', cursive;
-    color: whitesmoke;
+    color:ghostwhite;
 }
 
 .blog {
-height: 10vh;
+height: auto;
 width: 15vh;
-padding-left: 20px;
+margin: auto;
+padding: auto;
+/* padding-left: 20px; */
 }
+
 .blog img{
     height: 90px;
     width: 90px;
@@ -129,14 +132,15 @@ padding-left: 20px;
 }
 
 .hero{
+    margin: auto;
     text-align: center;
     height: 50%;
     width: 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
 }
 
 h3{
@@ -177,6 +181,9 @@ h3{
         font-size: 13px;
         padding-left: 5px;
         color: whitesmoke;
+    }
+    .hero{
+        padding-left: 0;
     }
 }
 
