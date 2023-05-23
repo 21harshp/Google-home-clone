@@ -45,6 +45,9 @@ h1{
     padding-bottom: 30px;
     text-transform: lowercase !important;
 }
+h1:active{
+    color: palevioletred;
+}
 form {
     display: flex;
     align-items: center;
@@ -102,8 +105,9 @@ h2{
 }
 
 .blog {
-height: 25vh;
+height: 10vh;
 width: 15vh;
+padding-left: 20px;
 }
 .blog img{
     height: 90px;
@@ -126,8 +130,8 @@ width: 15vh;
 
 .hero{
     text-align: center;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -139,4 +143,66 @@ h3{
     padding-top: 7px;
     font-size: 17px;
     text-align: center;
+}
+
+@media(max-width:991px){
+    .div{
+        width: 10%;
+        height: 100vh;
+    }
+    h2{
+        margin-left: 40vh;
+        margin-top: 30px;
+        
+    }
+}
+
+@media(max-width:767px){
+    .div{
+        width: 10%;
+        height: 100vh;
+    }
+    h2{
+        margin-left: 27vh;
+        margin-top: 30px;
+        
+    }
+    
+    .blog img{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .blog h3{
+        font-size: 13px;
+        padding-left: 5px;
+        color: whitesmoke;
+    }
+}
+
+@media(max-width:575px){
+
+    h1{
+        margin-left: 17%;
+    }
+
+    h2{
+        margin-left: 13vh;
+        margin-top: 30px;
+        
+    }
+
+    .blog img{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+    .blog h3{
+        font-size: 10px;
+        padding-left: 5px;
+        color: whitesmoke;
+    }
+    .hero{
+        width: 100%;
+    }
 }
